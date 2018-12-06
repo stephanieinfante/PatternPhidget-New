@@ -2,9 +2,7 @@
 //  ViewController.swift
 //  PatternPhidget
 //
-//  Created by Cristina Lopez on 2018-11-15.
-//  Copyright © 2018 Cristina Lopez. All rights reserved.
-//
+
 
 import UIKit
 import Phidget22Swift
@@ -15,8 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var patternLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     
-    let buttonArray = [DigitalInput(), DigitalInput()]
-    let ledArray = [DigitalOutput(), DigitalOutput()]
     let led1 = DigitalOutput()
     let led3 = DigitalOutput()
     let button0 = DigitalInput()
